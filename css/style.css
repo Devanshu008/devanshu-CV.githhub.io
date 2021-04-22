@@ -5,16 +5,16 @@
 /* colors */
 
 :root {
-    --primary: #1a253f;
-    --dark: #151a33;
-    --secondary: #2b55cc;
+    --primary: #eceff1;
+    --dark: #f5f5f5;
+    --secondary: #0091ea;
     --info: #4d79f6;
     --ternary: #848db3;
-    --pure: #eff2f9;
+    --pure: #673ab7;
     --fade: #7081b9;
     --mild: #8997bd;
-    --footer: #212a4a;
-    --black: #060b1b;
+    --footer: #263238;
+    --black: #263238;
     --twitter: #4ac7ec;
     --dribble: #ff5da0;
     --success: #1ecab8;
@@ -81,7 +81,7 @@ nav .inner .logo i {
     color: var(--info);
 }
 
-nav .inner button {
+nav .inner a {
     background: var(--secondary);
     border: none;
     padding: 0.6rem 1rem;
@@ -93,13 +93,13 @@ nav .inner button {
     transition: all .3s ease-in-out;
 }
 
-nav .inner button:hover,
-nav .inner button:active {
+nav .inner a:hover,
+nav .inner a:active {
     background: var(--info);
     color: var(--footer);
 }
 
-nav .inner button i {
+nav .inner a i {
     padding-right: 0.4rem;
 }
 
@@ -273,8 +273,8 @@ section.about .content p {
 }
 
 section.about .content .left button {
-    background: rgba(77, 121, 246, 0.1);
-    color: var(--info);
+    background: var(--secondary);
+    color: var(--black);
     padding: 4px 8px;
     font-size: 12px;
     border: none;
